@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, Verdana, sans-serif;
+}
+#main {
+    #font-style: oblique;
+}
+div>a {
+    color: #000000;
+}
+a[class="alarm"] {
+    color: violet !important;
+    text-decoration: overline;
+}
+.alarm {
+    color: midnightblue;
+}
+h1, h2 {
+    color: #ee3e80;
+    text-shadow: 3px 3px 5px #666666;
+}
+p {
+    color: #665544;
+}
+p:first-letter {
+    font-size: 200%;
+}
