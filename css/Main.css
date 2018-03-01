@@ -1,8 +1,35 @@
 body {
     font-family: Arial, Verdana, sans-serif;
 }
+@keyframes fade-in {
+    0% { opacity: 0 }
+    40% { opacity: 0 }
+    100% { opacity: 1 }
+}
+@-webkit-keyframes fade-in {
+    0% { opacity: 0 }
+    40% { opacity: 0 }
+    100% { opacity: 1 }
+}
+@-moz-keyframes fade-in {
+    0% { opacity: 0 }
+    40% { opacity: 0 }
+    100% { opacity: 1 }
+}
+@-o-keyframes fade-in {
+    0% { opacity: 0 }
+    40% { opacity: 0 }
+    100% { opacity: 1 }
+}
 #main {
     #font-style: oblique;
+    animation: fade-in;
+    animation-duration: 1s;
+    -webkit-animation: fade-in 1s;
+    text-align: center;
+    margin: 100px auto auto auto;
+    max-width: 500px;
+    padding: 0 20px
 }
 div>a {
     color: #000000;
@@ -23,4 +50,16 @@ p {
 }
 p:first-letter {
     font-size: 200%;
+}
+#avatar {
+    position: relative;
+    width: 230px;
+    height: 230px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.avatar {
+    width: 230px;
+    height: 230px;
+    border-radius:115px;
 }
