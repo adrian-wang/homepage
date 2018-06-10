@@ -1,5 +1,11 @@
 body {
     font-family: Arial, Verdana, sans-serif;
+    /* background-color: #a0a00a; 
+    background-image: url("image/background.png"); 
+    background-position: left top; 
+    background-size: auto; 
+    background-repeat: repeat; 
+    background-attachment: scroll; */
 }
 @keyframes fade-in {
     0% { opacity: 0 }
@@ -22,7 +28,7 @@ body {
     100% { opacity: 1 }
 }
 #main {
-    #font-style: oblique;
+    font-style: oblique;
     animation: fade-in;
     animation-duration: 1s;
     -webkit-animation: fade-in 1s;
@@ -61,5 +67,5 @@ p:first-letter {
 .avatar {
     width: 230px;
     height: 230px;
-    border-radius:115px;
+    border-radius: 50%;
 }
